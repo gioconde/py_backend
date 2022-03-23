@@ -1,5 +1,5 @@
-# py_base
-Projeto base para python
+# py_backend
+Projeto didático para backend em Python
 
 ## Instalação
 - criar *virtualenv* para o python na raíz do projeto:
