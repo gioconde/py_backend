@@ -1,0 +1,13 @@
+[flake8]
+ignore = D100,D104
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist,
+    venv
+per-file-ignores = 
+    __init__.py:F401
+max-complexity = 10
