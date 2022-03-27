@@ -1,3 +1,11 @@
+from .domain.entity import User
+
+
+usuario = User("Gi", "gioconded@gmail.com")
+usuario.name = "Teste"
+print(usuario.name)
+
+
 def soma(a, b):
     """Retorna a soma de dois valores.
 
