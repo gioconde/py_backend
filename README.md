@@ -8,10 +8,12 @@ python -m venv ./venv
 ```
 
 - ativar o ambiente virtual do python:
+
 -- Windows
 ```
 ./venv/bin/activate.ps1
 ```
+
 -- Linux
 ```
 source ./venv/bin/activate
