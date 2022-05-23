@@ -11,7 +11,7 @@ python -m venv ./venv
 
   - Windows
   ```
-  ./venv/bin/activate.ps1
+  ./venv/scripts/activate.ps1
   ```
   - Linux
   ```
