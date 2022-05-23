@@ -1,12 +1,15 @@
-from .domain.entity import User
+# from domain.entity.User import User
+# from domain.entity.Profile import Profile
+from domain.entity import Profile, User
 
+perfil = Profile("Admin", "admin@gmail.com")
 
-usuario = User("Gi", "gioconded@gmail.com")
+usuario = User("Giocc", "gioconded@gmail.com")
 usuario.name = "Teste"
 print(usuario.name)
 
 
-def soma(a, b):
+def soma(a: int, b: int) -> int:
     """Retorna a soma de dois valores.
 
     Args:
@@ -19,7 +22,7 @@ def soma(a, b):
     return a + b
 
 
-def sub(a, b):
+def sub(a: int, b: int) -> int:
     """Retorna a subtração de dois valores.
 
     Args:

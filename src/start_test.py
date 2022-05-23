@@ -1,4 +1,4 @@
-from .start import soma, sub
+from start import soma, sub
 import pytest
 
 

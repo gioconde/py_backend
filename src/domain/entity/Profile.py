@@ -1,12 +1,12 @@
-class User:
-    """User Class."""
+class Profile:
+    """Profile Class."""
 
-    def __init__(self, name: str, email):
-        """Construtor User.
+    def __init__(self, name, email):
+        """Construtor Profile.
 
         Args:
-            name (string): Nome do usuário
-            email (Email): Email do usuário
+            name (string): Nome do perfil
+            email (Email): Email do perfil
         """
         self.name = name
         self.email = email
@@ -16,7 +16,7 @@ class User:
         """Getter.
 
         Returns:
-            String: Nome do usuário
+            String: Nome do perfil
         """
         return self.__name + " getter."
 
@@ -37,5 +37,5 @@ class User:
         del self.__name
 
     def __str__(self):
-        """Representação de User."""
+        """Representação de Profile."""
         return f"Nome:{self.__name} Email:{self.email}"
